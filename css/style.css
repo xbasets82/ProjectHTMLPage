@@ -1,0 +1,59 @@
+body{
+    background-color: #B6A6CA;
+    margin: 3px;
+}
+header{
+    min-height: 10vh;
+    background-color: #4A2545;
+}
+main img{
+    height: 400px;
+}
+.FRow{
+    display: flex;
+    flex-direction: row; 
+}
+.FColumn{
+    display: flex;
+    flex-direction: column;
+}
+.JCenter{
+    justify-content: center;
+}
+.JSpaceAround{
+    justify-content: space-around;
+}
+.JSpaceBetween{
+    justify-content: space-between;
+}
+.H80{
+    min-height: 90vh;
+}
+.W100{
+    min-width: 100%;
+}
+.Rounded{
+    border-radius: 3%;
+}
+.MenuLinkSize{
+    height: 100px;
+    width: 500px;   
+}
+.C1{
+    background-color: #4A2545;
+}
+.C2{
+    background-color: #824C71;
+}
+.C3{
+    background-color: #90AA86;
+}
+.Circle{
+    border-radius: 50%;
+}
+article{
+    margin-top: 1px;
+}
+h2{
+    margin:0;
+}
