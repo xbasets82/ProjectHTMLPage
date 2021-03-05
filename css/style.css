@@ -1,59 +1,98 @@
-body{
-    background-color: #B6A6CA;
-    margin: 3px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(23, 44, 62) ;
+  margin: 3px;
 }
-header{
-    min-height: 10vh;
-    background-color: #4A2545;
+header {
+  min-height: 10vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(229, 229, 229) 0%,
+    rgb(229, 229, 229) 50%,
+    rgb(23, 44, 62) 50%,
+    rgb(23, 44, 62) 100%
+  );
 }
-main img{
-    height: 400px;
+main img {
+  height: 60vh;
+  border-radius: 3%;
+  margin: 5rem;
 }
-.FRow{
-    display: flex;
-    flex-direction: row; 
+.FRow {
+  display: flex;
+  flex-direction: row;
 }
-.FColumn{
-    display: flex;
-    flex-direction: column;
+.FColumn {
+  display: flex;
+  flex-direction: column;
 }
-.JCenter{
-    justify-content: center;
+.JCenter {
+  justify-content: center;
 }
-.JSpaceAround{
-    justify-content: space-around;
+.JSpaceAround {
+  justify-content: space-around;
 }
-.JSpaceBetween{
-    justify-content: space-between;
+.JSpaceBetween {
+  justify-content: space-between;
 }
-.H80{
-    min-height: 90vh;
+.ACenter {
+  align-items: center;
 }
-.W100{
-    min-width: 100%;
+.ABLine{
+    align-items:baseline;
 }
-.Rounded{
-    border-radius: 3%;
+.H80 {
+  min-height: 90vh;
 }
-.MenuLinkSize{
-    height: 100px;
-    width: 500px;   
+.W100 {
+  min-width: 100%;
 }
-.C1{
-    background-color: #4A2545;
+.Rounded {
+  border-radius: 3%;
 }
-.C2{
-    background-color: #824C71;
+.MenuLinkSize {
+  height: 100px;
+  width: 500px;
 }
-.C3{
-    background-color: #90AA86;
+.C1 {
+  background-color: rgb(23, 44, 62);
 }
-.Circle{
-    border-radius: 50%;
+.C2 {
+  background-color: rgb(229, 229, 229);
 }
-article{
-    margin-top: 1px;
+.C3 {
+  background-color: #90aa86;
 }
-h2{
-    margin:0;
+.Circle {
+  border-radius: 50%;
+}
+article {
+  margin-top: 1px;
+}
+h2 {
+  margin: 2rem;
+}
+section h2 {
+  margin: 1rem;
+}
+h1 {
+  margin: 0;
+  font-size: 30px;
+  background: linear-gradient(
+    to Bottom,
+    rgb(23, 44, 62) 0%,
+    rgb(23, 44, 62) 50%,
+    rgb(229, 229, 229) 50%,
+    rgb(229, 229, 229) 100%
+  );
+  color: rgb(229, 229, 229);
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ .Special {
+  margin: 1rem;
+  font-size: 20px;
+  width: 30rem;
 }
