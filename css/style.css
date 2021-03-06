@@ -1,9 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(23, 44, 62) ;
-  margin: 3px;
+  background-color: rgb(23, 44, 62);
+  margin: 0.5rem;
 }
 header {
+  max-height: 10vh;
   min-height: 10vh;
   background: linear-gradient(
     to bottom,
@@ -13,55 +14,72 @@ header {
     rgb(23, 44, 62) 100%
   );
 }
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  background: linear-gradient(
+    to bottom,
+    rgb(23, 44, 62) 0%,
+    rgb(23, 44, 62) 50%,
+    rgb(229, 229, 229) 50%,
+    rgb(229, 229, 229) 100%
+  );
+  color: rgb(229, 229, 229);
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 main img {
-  height: 60vh;
+  max-height: 60vh;
   border-radius: 3%;
   margin: 5rem;
 }
-.FRow {
-  display: flex;
-  flex-direction: row;
-}
-.FColumn {
-  display: flex;
-  flex-direction: column;
-}
-.JCenter {
-  justify-content: center;
-}
-.JSpaceAround {
-  justify-content: space-around;
-}
-.JSpaceBetween {
-  justify-content: space-between;
-}
-.ACenter {
-  align-items: center;
-}
-.ABLine{
-    align-items:baseline;
-}
+
 .H80 {
-  min-height: 90vh;
+  min-height: 80vh;
+  max-height: 80vh;
 }
 .W100 {
   min-width: 100%;
 }
+.SmallIcon {
+  height: 3rem;
+  position: absolute;
+  top: 10%;
+  left:90%;
+  margin: 0.5rem;
+}
 .Rounded {
-  border-radius: 3%;
+  border-radius: 0;
 }
 .MenuLinkSize {
-  height: 100px;
-  width: 500px;
+  height: 10vh;
+  width: 25vw;
 }
-.C1 {
+.BC1 {
   background-color: rgb(23, 44, 62);
 }
-.C2 {
+.BC2 {
   background-color: rgb(229, 229, 229);
 }
-.C3 {
+.BCG12 {
+  background: linear-gradient(
+    to top,
+    rgb(229, 229, 229) 0%,
+    rgb(229, 229, 229) 50%,
+    rgb(23, 44, 62) 50%,
+    rgb(23, 44, 62) 100%
+  );
+}
+.BC3 {
   background-color: #90aa86;
+}
+.C1 {
+  color: rgb(23, 44, 62);
+}
+.C2 {
+  color: rgb(229, 229, 229);
 }
 .Circle {
   border-radius: 50%;
@@ -74,25 +92,22 @@ h2 {
 }
 section h2 {
   margin: 1rem;
+  color: rgb(23, 44, 62);
 }
-h1 {
-  margin: 0;
-  font-size: 30px;
-  background: linear-gradient(
-    to Bottom,
-    rgb(23, 44, 62) 0%,
-    rgb(23, 44, 62) 50%,
-    rgb(229, 229, 229) 50%,
-    rgb(229, 229, 229) 100%
-  );
-  color: rgb(229, 229, 229);
-  text-align: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
- .Special {
+
+.Special {
   margin: 1rem;
   font-size: 20px;
   width: 30rem;
+}
+
+div > section {
+  margin-left: 0rem;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  min-height: 10vh;
+  max-height: 10vh;
 }

@@ -1,0 +1,29 @@
+.FRow {
+  display: flex;
+  flex-direction: row;
+}
+.FColumn {
+  display: flex;
+  flex-direction: column;
+}
+.JCenter {
+  justify-content: center;
+}
+.JSpaceAround {
+  justify-content: space-around;
+}
+.JEnd{
+    justify-content: flex-end;
+}
+.JSpaceBetween {
+  justify-content: space-between;
+}
+.ACenter {
+  align-items: center;
+}
+.ABLine {
+  align-items: baseline;
+}
+.Expand{
+    flex: 2;
+}

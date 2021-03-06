@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/flexStyle.css" />
     <title>CV</title>
   </head>
   <body>
-    <header class="FColumn ACenter JCenter"> 
-      <article>
-        <section >
+    <header class="FColumn ACenter JCenter">  
+
+        <section>
           <h1>XAVIER BASETS ROCA - ANALISTA PROGRAMADOR</h1>
         </section>
-      </article>
-    </header>   
-    <main>
-      <div class="FColumn JSpaceBetween H80 W100 C2">
-        <section class="FRow JCenter ">
+
+    </header>
+
+    <main class="FColumn">
+      <div class="FColumn H80 W100">
+        <section class="FRow JCenter BCG12 Rounded Expand">
+          <a href="https://linkedin.com/in/xavi-basets-roca-76693829">
+              <img class="SmallIcon" src="svg/linkedin.svg" alt="Perfil Linkedin" />
+          </a>
           <section class="FColumn">
-            <img class="Rounded" src="img/XaviB.jpg" alt="Xavi!" />
+            <img src="img/XaviB.jpg" alt="Xavi!" />
           </section>
           <section class="FColumn JCenter">
-            <h2>PERFIL</h2>
-            <p class="Special">
+            <h2 class="C2">PERFIL</h2>
+            <p class="Special C2">
               Analista Programador con experiencia en desarrollo Web con .Net y
               SQL Server y desarrolo de aplicaciones en COBOL.
             </p>
@@ -36,23 +41,86 @@
               Experiencia en implementacion y creación de Web Services
             </p>
           </section>
-        </section>
-        <section class="FRow JSpaceAround">
-          <a href="#pDiv" class="Rounded C1 MenuLinkSize">Estudis</a>
-          <a href="#pDiv2" class="Rounded C3 MenuLinkSize">Experiencia</a>
-          <a href="#pDiv" class="Rounded C1 MenuLinkSize">Skills</a>
-          <a href="#pDiv3" class="Rounded C3 MenuLinkSize">Idiomes</a>
-        </section>
+        </section>    
+
       </div>
-      <article id="pDiv FColumn" class="C1">
-        <h2>Article 1</h2>
-      </article>
-      <article id="pDiv2" class="C2">
-        <h2>Article 2</h2>
-      </article>
-      <article id="pDiv3" class="C3">
-        <h2>Article 3</h2>
-      </article>
+      <nav class="FRow JSpaceAround">
+        <a
+          href="#pDiv2"
+          class="FRow JCenter ACenter Rounded BC1 MenuLinkSize">
+          <h2 class="C2">EXPERIENCIA</h2>
+        </a>
+        <a
+          href="#educacion"
+          class="FRow JCenter ACenter Rounded BC2 MenuLinkSize">
+          <h2 class="C1">FORMACIÓN</h2>
+        </a>
+        <a href="#pDiv" class="FRow JCenter ACenter Rounded BC1 MenuLinkSize">
+          <h2 class="C2">SKILLS</h2>
+        </a>
+        <a
+          href="#pDiv3"
+          class="FRow JCenter ACenter Rounded BC2 MenuLinkSize">
+          <h2 class="C1">IDIOMAS</h2>
+        </a>
+    </nav>
+      <div>
+        
+        <article id="pDiv2" class="C2">
+          <h2>EXPERIENCIA</h2>
+          <h3>ANALISTA - PROGRAMADOR .NET</h3>
+          <h4>Nexus Spain | Abril 2018 - Actualmente</h4>
+          <ul>
+              <li> Análisis, toma de requerimientos y desarrollo de nuevas prestaciones y mejoras, para la solución TESIS-HCE</li>
+              <li>Explotación de Web Services y Creación de Web Services para consumo Externo</li>
+          </ul>
+          <h3>ANALISTA - PROGRAMADOR .NET</h3>
+          <h4>Wolters Kluwer | Marzo 2013 - Abril 2018</h4>
+          <ul>
+              <li>Análisis funcional y desarrollo de cambios legales, mejoras y corrección de errores en tecnología .NET, para las aplicaciones Web A3Equipo y Portal Empleado </li>
+              <li>Refactorización aplicación aplicando principios SOLID, y patrones de diseño.</li>
+              <li>Optimizacion Stored procedures SQL.</li>
+          </ul>
+          <h3>PROGRAMADOR SENIOR - COBOL/MICROFOCUS</h3>
+          <h4>Wolters Kluwer | Marzo 2009 - Abril 2013</h4>
+          <ul>
+              <li>Desarrollador COBOL espacialista en cálculo y en analisis de cambios legales.</li>
+              <li>Análisis técnico para nuevos desarrollos.</li>
+              <li>Resolución en incidencias</li>
+              <li>Mantenimiento aplicación de traspaso de datos a SQL</li>
+          </ul>
+          <h3>PROGRAMADOR JUNIOR - COBOL/MICROFOCUS</h3>
+          <h4>Tecsolutions | Enero 2007 - Marzo 2009</h4>
+          <ul>
+              <li>Desarrollador COBOL espacialista en cálculo y en analisis de cambios legales.</li>
+              <li>Análisis técnico para nuevos desarrollos.</li>
+              <li>Resolución en incidencias</li>
+              <li>Mantenimiento aplicación de traspaso de datos a SQL</li>
+          </ul>
+        </article>
+        <article id="educacion" class="FColumn BC2 C1">
+            <h2>FORMACIÓN</h2>
+            <h3>INGENIERÍA TÉCNICA EN TELECOMUNICACIONES(ESP TELEMÁTICA)</h3>
+            <p>
+              UPC-EPSC: Escola Politècnica Superior de Castelldefels. 2006 - 2010
+            </p>
+            <h3>
+              CICLO FORMATIVO DE GRADO SUPERIOR EN TELECOMUNICACIONES Y SISTEMAS
+              INFORMÁTICOS
+            </h3>
+            <p>Escola Professional Salesians de Sarrià. 2001 - 2003</p>
+            <h3> FORMACIÓN COMPLEMENTARIA</h3>
+            <ul>
+                <li>Formación CLEAN CODE - OpenWebinars 2018</li>
+                <li>Formación SOLID y Patrones de disenyo - OpenWebinars 2018</li>
+                
+            </ul>
+          </article>
+        <article id="pDiv3" class="C3">
+          <h2>Article 3</h2>
+        </article>
+      </div>
     </main>
+    <footer></footer>
   </body>
 </html>
