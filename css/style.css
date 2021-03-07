@@ -37,25 +37,33 @@ main img {
 }
 
 .H80 {
-  min-height: 80vh;
-  max-height: 80vh;
+  min-height: 84vh;
+  max-height: 84vh;
 }
 .W100 {
   min-width: 100%;
 }
 .SmallIcon {
   height: 3rem;
-  position: absolute;
+  margin: 0.2rem;
+  position: absolute;    
   top: 10%;
-  left:90%;
-  margin: 0.5rem;
+  left: 90%;
+}
+
+.Home {
+  height: 2rem;
 }
 .Rounded {
-  border-radius: 0;
+  border-radius: 5%;
 }
 .MenuLinkSize {
   height: 10vh;
   width: 25vw;
+}
+.MenuLinkSmallSize {
+  height: 10vh;
+  width: 5vw;
 }
 .BC1 {
   background-color: rgb(23, 44, 62);
@@ -87,12 +95,17 @@ main img {
 article {
   margin-top: 1px;
 }
-h2 {
-  margin: 2rem;
+article h2 {
+  margin-left: 2rem;
+  margin-top: 5vh;
 }
 h3 {
-    margin-left: 3rem;
+  margin-left: 3rem;
 }
+h4 {
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+  }
 section h2 {
   margin: 1rem;
   color: rgb(23, 44, 62);
@@ -109,44 +122,92 @@ div > section {
 }
 a {
   text-decoration: none;
+  min-height: 5vh;
+  max-height: 5vh;
 }
 nav {
-  min-height: 10vh;
-  max-height: 10vh;
+  min-height: 5vh;
+  max-height: 5vh;
   position: sticky;
-  top:0;
+  top: 0;
 }
-.Circle{
-    border-radius: 50%;
-    height: 1.5rem;
-    width: 1.5rem;
+
+.Circle {
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
 }
-.EmptyCircle{
+.EmptyCircle {
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+  border: solid 0.1rem rgb(229, 229, 229);
+  overflow: hidden;
+}
+.EmptyCircleDark {
     border-radius: 50%;
     height: 1.3rem;
     width: 1.3rem;
-    border: solid 0.1rem rgb(229, 229, 229);
-    overflow:hidden;
+    border: solid 0.1rem rgb(23, 44, 62);
+    overflow: hidden;
+  }
+table {
+  border-collapse: collapse;
+  vertical-align: baseline;
+  width: 50vw;
 }
-table{
-    border-collapse: collapse;
-    vertical-align: baseline; 
-    width: 50vw;
+table td {
+  white-space: nowrap;
+  text-align: center;
 }
-table td{    
-    white-space: nowrap;
-    text-align: center;
+table td div {
+  display: inline-block;
 }
-table td div{
-display: inline-block;
+table img {
+  height: 3rem;
+  margin: 1rem;
 }
-table img{
-    height: 3rem;
-    margin: 1rem;
-}
-.LeftAlign{
-    text-align: left;
+.LeftAlign {
+  text-align: left;
 }
 ul li {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
+}
+footer{
+    height: 15vh;
+}
+footer img {
+    height: 2rem;
+    margin: 0.5rem;
+  }
+footer table {
+    width: 40vw;
+}
+aside{
+    width: 40vw;
+    align-self: flex-start;
+    border: solid 0.1rem rgb(229, 229, 229);
+    margin-right: 2rem;
+    
+}
+p{
+margin-left: 5rem   ;
+}
+.LightSelector{
+    list-style-image: url("../svg/stop.svg");
+    margin-left: 4rem;
+}
+.DarkSelector{
+    list-style-image: url("../svg/stopBlue.svg");
+    margin-left: 4rem;
+}
+.Icon{
+    height: 5rem;
+    align-self: flex-start;
+    margin-right: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+table p{
+    margin: 0;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/flexStyle.css" />
+    <link rel="shortcut icon" href="img/cv.png" type="image/x-icon">
     <title>CV</title>
   </head>
   <body>
@@ -18,21 +19,24 @@
 
     <main class="FColumn">
       <div class="FColumn H80 W100">
-        <section class="FRow JCenter BCG12 Rounded Expand">
+          
+        <a href="https://linkedin.com/in/xavi-basets-roca-76693829">
+            <img
+              class="SmallIcon"
+              src="svg/linkedin.svg"
+              alt="Perfil Linkedin"
+            />
+        </a>        
 
+        <section class="FRow JCenter BCG12 Expand">
           <section class="FColumn">
             <img src="img/XaviB.jpg" alt="Xavi!" />
           </section>
           <section class="FColumn JCenter">
+            
             <div>
                 <h2 class="C2">PERFIL</h2>
-                <a href="https://linkedin.com/in/xavi-basets-roca-76693829">
-                    <img
-                      class="SmallIcon"
-                      src="svg/linkedin.svg"
-                      alt="Perfil Linkedin"
-                    />
-                </a>
+                
             </div>
             <p class="Special C2">
               Analista Programador con experiencia en desarrollo Web con .Net y
@@ -50,37 +54,50 @@
         </section>
 
       </div>
-      <nav class="FRow JSpaceAround">
+      <nav class="FRow JSpaceAround AStart">
+        <a
+        href="#"
+        class="FRow JCenter ACenter  BC2 MenuLinkSmallSize">
+        <img class = "Home" src="svg/HomeBlue.svg" alt="Inicio">
+      </a>
+      <a href="#contacto" class="FRow JCenter ACenter  BC2 MenuLinkSmallSize" >
+        <img
+          class="Home"
+          src="svg/contactBlue.svg"
+          alt="Información de Contacto"
+        />
+    </a>
         <a
           href="#experiencia"
-          class="FRow JCenter ACenter Rounded BC1 MenuLinkSize"
-        >
+          class="FRow JCenter ACenter  BC1 MenuLinkSize">
           <h2 class="C2">EXPERIENCIA</h2>
         </a>
         <a
-          href="#educacion"
-          class="FRow JCenter ACenter Rounded BC2 MenuLinkSize"
-        >
+          href="#formacion"
+          class="FRow JCenter ACenter  BC2 MenuLinkSize">
           <h2 class="C1">FORMACIÓN</h2>
         </a>
-        <a href="#skills" class="FRow JCenter ACenter Rounded BC1 MenuLinkSize">
+        <a href="#skills" class="FRow JCenter ACenter  BC1 MenuLinkSize">
           <h2 class="C2">SKILLS</h2>
         </a>
-        <a href="#idiomas" class="FRow JCenter ACenter Rounded BC2 MenuLinkSize">
+        <a href="#idiomas" class="FRow JCenter ACenter  BC2 MenuLinkSize">
           <h2 class="C1">IDIOMAS</h2>
         </a>
+        <a href="#reconocimientos" class="FRow JCenter ACenter  BC1 MenuLinkSize">
+            <h2 class="C2">RECONOCIMIENTOS</h2>
+          </a>
       </nav>
       <div>
-        <article id="experiencia" class="C2">
+        <article id="experiencia" class="FColumn BC1 C2">
           <h2>EXPERIENCIA</h2>
           <h3>ANALISTA - PROGRAMADOR .NET</h3>
           <h4>Nexus Spain | Abril 2018 - Actualmente</h4>
           <ul>
-            <li>
+            <li class="LightSelector">
               Análisis, toma de requerimientos y desarrollo de nuevas
               prestaciones y mejoras, para la solución TESIS-HCE
             </li>
-            <li>
+            <li class="LightSelector">
               Explotación de Web Services y Creación de Web Services para
               consumo Externo
             </li>
@@ -88,65 +105,66 @@
           <h3>ANALISTA - PROGRAMADOR .NET</h3>
           <h4>Wolters Kluwer | Marzo 2013 - Abril 2018</h4>
           <ul>
-            <li>
+            <li class="LightSelector">
               Análisis funcional y desarrollo de cambios legales, mejoras y
               corrección de errores en tecnología .NET, para las aplicaciones
               Web A3Equipo y Portal Empleado
             </li>
-            <li>
+            <li class="LightSelector">
               Refactorización aplicación aplicando principios SOLID, y patrones
               de diseño.
             </li>
-            <li>Optimizacion Stored procedures SQL.</li>
+            <li class="LightSelector">Optimizacion Stored procedures SQL.</li>
           </ul>
           <h3>PROGRAMADOR SENIOR - COBOL/MICROFOCUS</h3>
           <h4>Wolters Kluwer | Marzo 2009 - Abril 2013</h4>
           <ul>
-            <li>
+            <li class="LightSelector">
               Desarrollador COBOL espacialista en cálculo y en analisis de
               cambios legales.
             </li>
-            <li>Análisis técnico para nuevos desarrollos.</li>
-            <li>Resolución en incidencias</li>
-            <li>Mantenimiento aplicación de traspaso de datos a SQL</li>
+            <li class="LightSelector">Análisis técnico para nuevos desarrollos.</li>
+            <li class="LightSelector">Resolución en incidencias</li>
+            <li class="LightSelector">Mantenimiento aplicación de traspaso de datos a SQL</li>
           </ul>
           <h3>PROGRAMADOR JUNIOR - COBOL/MICROFOCUS</h3>
           <h4>Tecsolutions | Enero 2007 - Marzo 2009</h4>
           <ul>
-            <li>
+            <li class="LightSelector">
               Desarrollador COBOL espacialista en cálculo y en analisis de
               cambios legales.
             </li>
-            <li>Análisis técnico para nuevos desarrollos.</li>
-            <li>Resolución en incidencias</li>
-            <li>Mantenimiento aplicación de traspaso de datos a SQL</li>
+            <li class="LightSelector">Análisis técnico para nuevos desarrollos.</li>
+            <li class="LightSelector">Resolución en incidencias</li>
+            <li class="LightSelector">Mantenimiento aplicación de traspaso de datos a SQL</li>
           </ul>
         </article>
-        <article id="educacion" class="FColumn BC2 C1">
+        <article id="formacion" class="FColumn BC2 C1">
           <h2>FORMACIÓN</h2>
           <h3>INGENIERÍA TÉCNICA EN TELECOMUNICACIONES(ESP TELEMÁTICA)</h3>
-          <p>
+          <h4>
             UPC-EPSC: Escola Politècnica Superior de Castelldefels. 2006 - 2010
-          </p>
+          </h4>
           <h3>
             CICLO FORMATIVO DE GRADO SUPERIOR EN TELECOMUNICACIONES Y SISTEMAS
             INFORMÁTICOS
           </h3>
-          <p>Escola Professional Salesians de Sarrià. 2001 - 2003</p>
+          <h4>Escola Professional Salesians de Sarrià. 2001 - 2003</h4>
           <h3>FORMACIÓN COMPLEMENTARIA</h3>
           <ul>
-            <li>Formacion Refactor - refactoring Guru 2020</li>
-            <li>Formación CLEAN CODE - OpenWebinars 2018</li>
-            <li>Formación SOLID y Patrones de disenyo - OpenWebinars 2018</li>
-            <li>Formacion AGILE - Wolters Kluwer 2015</li>
-            <li>Formacion SQL Avanzada - Wolters Kluwer 2014</li>
-            <li>Formacion COBOL - Tecsolutions 2008</li>
-            <li>Curso Liderazgo Personal - ESEC 2007</li>
+            <li class="DarkSelector">Formacion Refactor - refactoring Guru 2020</li>
+            <li class="DarkSelector">Formación CLEAN CODE - OpenWebinars 2018</li>
+            <li class="DarkSelector">Formación SOLID y Patrones de disenyo - OpenWebinars 2018</li>
+            <li class="DarkSelector">Formacion AGILE - Wolters Kluwer 2015</li>
+            <li class="DarkSelector">Formacion SQL Avanzada - Wolters Kluwer 2014</li>
+            <li class="DarkSelector">Formacion COBOL - Tecsolutions 2008</li>
+            <li class="DarkSelector">Curso Liderazgo Personal - ESEC 2007</li>
           </ul>
         </article>
-        <article id="skills" class="FColumn BC1 C2">
+        <article id="skills" class="FColumn BC1 C2">            
           <h2>SKILLS</h2>
-          <div class="FRow JCenter">
+          
+          <div class="FRow JSpaceBetween">
             <table>
               <tbody>
                 <tr>
@@ -228,19 +246,19 @@
                     </td>
                 </tr>
               </tbody>
-            </table>            
+            </table>    
+            <aside class="BC1 C2 Rounded">
+                <h3>METODOLOGÍAS DE TRABAJO</h3>
+                <ul>
+                    <li>SCRUM : 4 años trabajando con SCRUM en diferentes equipos siendo participe en la implementación y consolidacón. </li>
+                    <li>KANBAN : 3 años trabajando con metodología KANBAN.</li>           
+                </ul>     
+              </aside>        
           </div>
-          <section>
-          <h3>METODOLOGÍAS DE TRABAJO</h3>
-          <p>Experiencia en metodologías Ágiles:</p> 
-          <ul>
-            <li>SCRUM : 4 años trabajando con SCRUM en diferentes equipos siendo participe en la implementación y consolidacón. </li>
-            <li>KANBAN : 3 años trabajando con metodología KANBAN.</li>           
-          </ul>
           
-          </section>
         </article>
-        <article id="idiomas" class="FColumn BC1 C2">
+       
+        <article id="idiomas" class="FColumn BC2 C1">
             <h2>IDIOMAS</h2>
             <div class="FRow JCenter">
               <table>
@@ -250,39 +268,91 @@
                         <h3>CATALÁN</h3>
                     </td>
                     <td class="LeftAlign"> 
-                      <div class="Circle BC2"></div>
-                      <div class="Circle BC2"></div>
-                      <div class="Circle BC2"></div>
-                      <div class="Circle BC2"></div>
-                      <div class="EmptyCircle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="EmptyCircleDark BC2"></div>
                     </td>
                     <td>
                         <h3>CASTELLANO</h3>
                     </td>
                     <td class="LeftAlign">
-                      <div class="Circle BC2"></div>
-                      <div class="Circle BC2"></div>
-                      <div class="Circle BC2"></div>
-                      <div class="Circle BC2"></div>
-                      <div class="EmptyCircle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="Circle BC1"></div>
+                      <div class="EmptyCircleDark BC2"></div>
                     </td>                 
                     <td>
                         <h3>INGLÉS</h3>
                     </td>
                     <td class="LeftAlign">
-                        <div class="Circle BC2"></div>
-                        <div class="Circle BC2"></div>
-                        <div class="EmptyCircle BC1"></div>
-                        <div class="EmptyCircle BC1"></div>
-                        <div class="EmptyCircle BC1"></div>
+                        <div class="Circle BC1"></div>
+                        <div class="Circle BC1"></div>
+                        <div class="Circle BC1"></div>
+                        <div class="EmptyCircleDark BC2"></div>
+                        <div class="EmptyCircleDark BC2"></div>
                       </td>  
                   </tr>                 
                 </tbody>
               </table>            
             </div>           
           </article>
+          <article id="reconocimientos" class=" BC1 C2">
+            <h2>RECONOCIMIENTOS</h2>
+            <div class="FRow JSpaceAround AStart ">
+                <div class="FColumn ">    
+                    <h3>WINNER OVERALL CODE GAMES 2017</h3>
+                    <h4>Wolters Kluwer | 2017</h4>
+                </div>
+                <div>
+                    <img class="Icon" src="/svg/medalla.svg" alt="Reconocimiento" >
+                </div>  
+            </div>
+            <div class="FRow JCenter "></div>
+            
+            <div>
+                <p>Diseño y desarrollo de un Bot multiplataforma 
+                    con reconocimiento de lenguaje natural, utilizando 
+                    Language Understanding Intelligent Service de Microsoft(LUIS)
+                     y Microsoft Bot Framework</p>
+            </div>
+            
+        </div>
+        </article>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+        <article id="contacto" class="FColumn BC2 C1">     
+        <h2>CONTACTO</h2>
+        <div class="FRow JCenter">
+        <table>
+            <tbody>
+              <tr>
+                <td>
+                    <img src="svg/whatsapp.svg" alt="whatsapp" title="whatsapp"/>
+                </td>
+                <td class="LeftAlign"> 
+                  <p>627973082</p>
+                </td>
+                <td>
+                    <img src="svg/at.svg" alt="correo electrónico" title="email"/>
+                </td>
+                <td class="LeftAlign"> 
+                  <p>xavi.basets@gmail.com</p>
+                </td>             
+                <td>
+                    <img src="svg/telephone.svg" alt="Número de teléfono" title="Número de teléfono"/>
+                </td>
+                <td class="LeftAlign"> 
+                  <p>627973082</p>
+                </td>
+              </tr>                 
+            </tbody>
+          </table>  
+        </div>  
+        </article>
+    </footer>
   </body>
 </html>
