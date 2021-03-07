@@ -90,6 +90,9 @@ article {
 h2 {
   margin: 2rem;
 }
+h3 {
+    margin-left: 3rem;
+}
 section h2 {
   margin: 1rem;
   color: rgb(23, 44, 62);
@@ -110,4 +113,40 @@ a {
 nav {
   min-height: 10vh;
   max-height: 10vh;
+  position: sticky;
+  top:0;
+}
+.Circle{
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.EmptyCircle{
+    border-radius: 50%;
+    height: 1.3rem;
+    width: 1.3rem;
+    border: solid 0.1rem rgb(229, 229, 229);
+    overflow:hidden;
+}
+table{
+    border-collapse: collapse;
+    vertical-align: baseline; 
+    width: 50vw;
+}
+table td{    
+    white-space: nowrap;
+    text-align: center;
+}
+table td div{
+display: inline-block;
+}
+table img{
+    height: 3rem;
+    margin: 1rem;
+}
+.LeftAlign{
+    text-align: left;
+}
+ul li {
+    margin-top: 0.5rem;
 }
