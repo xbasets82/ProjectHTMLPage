@@ -16,7 +16,7 @@ header {
 }
 h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.2rem;
   background: linear-gradient(
     to bottom,
     rgb(23, 44, 62) 0%,
@@ -46,8 +46,8 @@ main img {
 .SmallIcon {
   height: 3rem;
   margin: 0.2rem;
-  position: absolute;    
-  top: 10%;
+  position: absolute;
+  top: 15%;
   left: 90%;
 }
 
@@ -75,8 +75,8 @@ main img {
   background: linear-gradient(
     to top,
     rgb(229, 229, 229) 0%,
-    rgb(229, 229, 229) 50%,
-    rgb(23, 44, 62) 50%,
+    rgb(229, 229, 229) 55%,
+    rgb(23, 44, 62) 55%,
     rgb(23, 44, 62) 100%
   );
 }
@@ -103,9 +103,9 @@ h3 {
   margin-left: 3rem;
 }
 h4 {
-    margin-top: 0.5rem;
-    margin-left: 3rem;
-  }
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
 section h2 {
   margin: 1rem;
   color: rgb(23, 44, 62);
@@ -113,7 +113,7 @@ section h2 {
 
 .Special {
   margin: 1rem;
-  font-size: 20px;
+  font-size: 1.2rem;
   width: 30rem;
 }
 
@@ -124,6 +124,13 @@ a {
   text-decoration: none;
   min-height: 5vh;
   max-height: 5vh;
+}
+nav a:hover {
+  background: #676470;
+  transition: all 0.3s ease; 
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
 }
 nav {
   min-height: 5vh;
@@ -145,12 +152,12 @@ nav {
   overflow: hidden;
 }
 .EmptyCircleDark {
-    border-radius: 50%;
-    height: 1.3rem;
-    width: 1.3rem;
-    border: solid 0.1rem rgb(23, 44, 62);
-    overflow: hidden;
-  }
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+  border: solid 0.1rem rgb(23, 44, 62);
+  overflow: hidden;
+}
 table {
   border-collapse: collapse;
   vertical-align: baseline;
@@ -173,41 +180,47 @@ table img {
 ul li {
   margin-top: 0.5rem;
 }
-footer{
-    height: 15vh;
+footer {
+  height: 15vh;
 }
 footer img {
-    height: 2rem;
-    margin: 0.5rem;
-  }
+  height: 2rem;
+  margin: 0.5rem;
+}
 footer table {
-    width: 40vw;
+  width: 40vw;
 }
-aside{
-    width: 40vw;
-    align-self: flex-start;
-    border: solid 0.1rem rgb(229, 229, 229);
-    margin-right: 2rem;
-    
+aside {
+  width: 40vw;
+  align-self: flex-start;
+  border: solid 0.1rem rgb(229, 229, 229);
+  margin-right: 2rem;
 }
-p{
-margin-left: 5rem   ;
+p {
+  margin-left: 5rem;
 }
-.LightSelector{
-    list-style-image: url("../svg/stop.svg");
-    margin-left: 4rem;
+.LightSelector {
+  list-style-image: url("../svg/stop.svg");
+  margin-left: 4rem;
 }
-.DarkSelector{
-    list-style-image: url("../svg/stopBlue.svg");
-    margin-left: 4rem;
+.DarkSelector {
+  list-style-image: url("../svg/stopBlue.svg");
+  margin-left: 4rem;
 }
-.Icon{
-    height: 5rem;
-    align-self: flex-start;
-    margin-right: 3rem;
-    margin-top: 0;
-    margin-bottom: 0;
+.Icon {
+  height: 5rem;
+  align-self: flex-start;
+  margin-right: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-table p{
-    margin: 0;
+table p {
+  margin: 0;
+}
+.First::first-letter{
+  font-size: 3rem;
+  margin: 0;
+}
+a h2{
+  font-size: 1.3rem;
 }
