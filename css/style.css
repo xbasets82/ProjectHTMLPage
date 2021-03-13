@@ -113,14 +113,11 @@ section h2 {
 .Circle {
   border-radius: 50%;
 }
-
-
 .Special {
   margin: 1rem;
   font-size: 1.2rem;
   width: 30rem;
 }
-
 div > section {
   margin-left: 0rem;
 }
@@ -245,4 +242,14 @@ hr {
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+.Show:hover {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
 }

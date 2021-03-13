@@ -4,15 +4,22 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function setAllExperienceListeners(Experiences) {
-  for (i = 0; i < Experiences.length; i++)
+  for (i = 0; i < Experiences.length; i++) {
     Experiences[i].addEventListener("click", ShowExperience);
+    Experiences[i].addEventListener("mouseover", function(event){RotateArrow(360,this)});
+    Experiences[i].addEventListener("mouseout", function(event){RotateArrow(0,this)});   
+  }
 }
-
 function ShowExperience() {
-  console.log(this);
   const listToShow = this.nextElementSibling;
   listToShow.style.display =
     listToShow.style.display === "block" || listToShow.style.display === ""
       ? (listToShow.style.display = "none")
       : (listToShow.style.display = "block");
 }
+function RotateArrow(degrees,objeto) {
+  const arrow = objeto.querySelector(".Show");
+  arrow.style.transition = "all 0.5s";
+  arrow.style.transform = `rotate(${degrees}deg)`;
+}
+
