@@ -31,9 +31,13 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 main img {
-  max-height: 60vh;
+  max-height: 60vh; 
   border-radius: 3%;
   margin: 5rem;
+}
+.MainImage{
+  min-width: 10%;
+  min-height: 10%;
 }
 article {
   margin-top: 1px;
